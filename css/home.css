@@ -63,5 +63,10 @@ section {
 }
 
 .cert-card {
-    max-width: 400px;
+    margin-bottom: 15px;
+}
+
+.cert-card:hover {
+    -webkit-box-shadow: 0 4px 8px #45bafc;
+    box-shadow: 1px 1px 15px #45bafc;
 }

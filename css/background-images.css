@@ -14,31 +14,31 @@
     #bg-1 {
         background: url('../img/bg/small/jax-boat-min.jpeg') no-repeat fixed center;
         background-size: cover;
-        height: calc(40vh);
+        height: calc(25vh);
     }
 
     #bg-2 {
         background: url('../img/bg/small/scotland-min.jpeg') no-repeat fixed center;
         background-size: cover;
-        height: calc(40vh);
+        height: calc(25vh);
     }
 
     #bg-3 {
         background: url('../img/bg/small/engagement-min.jpg') no-repeat fixed center;
         background-size: cover;
-        height: calc(40vh);
+        height: calc(25vh);
     }
 
     #bg-4 {
         background: url('../img/bg/small/wartles-landing-min.JPG') no-repeat fixed center;
         background-size: cover;
-        height: calc(40vh);
+        height: calc(25vh);
     }
 
     #bg-5 {
         background: url('../img/bg/small/uga-sec-champs-min.png') no-repeat fixed center;
         background-size: cover;
-        height: calc(90vh);
+        height: calc(50vh);
     }
 
 }
