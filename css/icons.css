@@ -1,0 +1,44 @@
+.skill-icon {
+    font-size: 5rem;
+    margin-bottom: 15px;
+}
+
+.fa-js-square {
+    color: #efdb4f;
+}
+
+.fa-angular {
+    color: #e23237;
+}
+
+.fa-html5 {
+    color: #e34d26;
+}
+
+.fa-css3-alt {
+    color: #1f62ae;
+}
+
+.fa-sass {
+    color: #cd669a;
+}
+
+.fa-git-square {
+    color: #ef5033;
+}
+
+.skill-card {
+    padding: 2.5rem auto;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+    margin-bottom: 15px;
+}
+
+@media screen and (min-width: 650px) {
+    #skills .card {
+        -webkit-box-flex: 1;
+        -ms-flex: 1 1 calc(25% - 1rem);
+        flex: 1 1 calc(25% - 1rem);
+    }
+}
+

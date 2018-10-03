@@ -1,0 +1,94 @@
+/* Break Points
+  xs: 0 - 575px
+  sm: 576px - 767px
+  md: 768px - 991px
+  lg: 992px - 1199px
+  xl: 1200px+
+
+  ipad air: 768 x 1024
+  iphone X: 375 x 724
+ */
+
+/* ---------    md+     --------- */
+@media screen and (min-width: 768px) {
+    #bg-1 {
+        background: url('../img/bg/small/jax-boat-min.jpeg') no-repeat fixed center;
+        background-size: cover;
+        height: calc(40vh);
+    }
+
+    #bg-2 {
+        background: url('../img/bg/small/scotland-min.jpeg') no-repeat fixed center;
+        background-size: cover;
+        height: calc(40vh);
+    }
+
+    #bg-3 {
+        background: url('../img/bg/small/engagement-min.jpg') no-repeat fixed center;
+        background-size: cover;
+        height: calc(40vh);
+    }
+
+    #bg-4 {
+        background: url('../img/bg/small/wartles-landing-min.JPG') no-repeat fixed center;
+        background-size: cover;
+        height: calc(40vh);
+    }
+
+    #bg-5 {
+        background: url('../img/bg/small/uga-sec-champs-min.png') no-repeat fixed center;
+        background-size: cover;
+        height: calc(90vh);
+    }
+
+}
+
+/* Turn the shit off for tablets and mobile devices */
+@media only screen and (max-device-width: 1024px) {
+    #bg-1, #bg-2, #bg-3, #bg-4, #bg-5 {
+        background-attachment: scroll;
+    }
+}
+
+/*!* ---------    xs    --------- *!
+@media screen and (max-width: 575px) {
+
+}
+
+!* ---------    sm    --------- *!
+@media screen and (max-width: 767px) and (min-width: 576px) {
+}
+
+!* ---------    md     --------- *!
+@media screen and (max-width: 991px) and (min-width: 768px) {
+
+}
+
+!* ---------    lg    --------- *!
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+
+}
+
+!* ---------    sm+     --------- *!
+@media screen and (min-width: 576px) {
+}
+
+!* ---------    lg -     --------- *!
+@media screen and (max-width: 991px) {
+
+}
+
+!* ---------    lg+     --------- *!
+@media screen and (min-width: 992px) {
+
+}
+
+!* ---------    xl     --------- *!
+@media screen and (min-width: 1200px) {
+
+}*/
+
+
+
+
+

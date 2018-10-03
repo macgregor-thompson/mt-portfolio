@@ -11,7 +11,11 @@
     margin-right: auto;
 }
 
-.main-jumbo {
+.back-to-top {
+    display: none;
+}
+
+#intro {
     margin-top: 50px;
     background: -webkit-gradient(linear, left top, right bottom, from(#292C33), to(#393d47));
     background: linear-gradient(to bottom right, #292C33, #393d47);
@@ -22,14 +26,32 @@
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    min-height: calc(80vh - 60px);
+
 }
 
-.main-jumbo h1 {
+#intro h1 {
     font-weight: 600;
+}
+
+.into-img {
+    max-width: 200px;
+}
+
+#contact {
+    background: -webkit-gradient(linear, left top, right bottom, from(#292C33), to(#393d47));
+    background: linear-gradient(to bottom right, #292C33, #393d47);
+    min-height: calc(60vh );
 }
 
 /*
 .main-jumbo p {
     font-size: 1.2rem;
 }*/
+
+section {
+    padding: 40px 0;
+}
+
+#intro {
+    padding: 50px 0px;
+}
