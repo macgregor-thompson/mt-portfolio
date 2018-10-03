@@ -1,0 +1,55 @@
+.primary {
+    color: #45bafc;
+}
+
+a.primary:hover {
+    color: #29749e;
+}
+
+.secondary {
+    color: #57EEA1;
+}
+
+a.secondary:hover, a.secondary:active {
+    color: #4BC380;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+.top-space-10 {
+    margin-top: 10px;
+}
+
+.top-space-15 {
+    margin-top: 15px;
+}
+
+.top-space-30 {
+    margin-top: 30px;
+}
+
+.top-space-50 {
+    margin-top: 50px;
+}
+
+.bottom-space-10 {
+    margin-bottom: 10px;
+}
+
+.bottom-space-30 {
+    margin-bottom: 30px;
+}
+
+.bottom-space-50 {
+    margin-bottom: 50px;
+}
+
+.bottom-space-100 {
+    margin-bottom: 100px;
+}
