@@ -17,8 +17,18 @@
     margin-right: auto;
 }
 
-.back-to-top {
-    display: none;
+.section-header {
+    margin-bottom: 2rem;
+    font-weight: 700;
+    /*
+    font-family: 'Rum Raisin', sans-serif;
+    text-transform: uppercase;
+    */
+
+}
+
+.alt-font {
+    font-family: 'Rum Raisin', cursive;
 }
 
 #intro {
@@ -54,10 +64,6 @@
     font-size: 1.2rem;
 }*/
 
-section {
-    padding: 40px 0;
-}
-
 #intro {
     padding: 50px 0;
 }
@@ -69,4 +75,31 @@ section {
 .cert-card:hover {
     -webkit-box-shadow: 0 4px 8px #45bafc;
     box-shadow: 1px 1px 15px #45bafc;
+}
+
+.dark-nav-text {
+    color: rgba(255,255,255,.5);
+}
+
+
+.project-link {
+    color: #212529;
+}
+
+.project-link:hover, .project-link:active {
+    color: #212529;
+}
+
+.project-link .link-icon {
+    visibility: hidden;
+    text-decoration: none;
+}
+.project-link:hover .link-icon,
+.project-link:active .link-icon {
+    visibility: visible;
+    text-decoration: none;
+}
+
+.timeline-badge {
+    font-weight: 400;
 }

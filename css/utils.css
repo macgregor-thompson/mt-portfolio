@@ -1,26 +1,8 @@
-.primary {
-    color: #45bafc;
+.img-center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
-
-a.primary:hover {
-    color: #29749e;
-}
-
-.secondary {
-    color: #57EEA1;
-}
-
-a.secondary:hover, a.secondary:active {
-    color: #4BC380;
-    text-decoration: none;
-}
-
-
-
-
-
-
-
 
 .top-space-10 {
     margin-top: 10px;

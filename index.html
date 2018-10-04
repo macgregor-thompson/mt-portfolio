@@ -4,15 +4,19 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 
     <link rel="stylesheet" href="css/vendor/bootstrap/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,800" rel="stylesheet">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.3.1/css/all.css"
-          integrity="sha384-9ralMzdK1QYsk4yBY680hmsb4/hJ98xK3w0TIaJ3ll4POWpWUYaA2bRjGGujGT8w" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/vendor/fontawesome-pro-5.3.1/css/all.min.css">
 
     <link rel="stylesheet" href="css/all.css">
     <link rel="stylesheet" href="css/utils.css">
     <link rel="stylesheet" href="css/background-images.css">
+    <link rel="stylesheet" href="css/media-queries.css">
     <link rel="stylesheet" href="css/icons.css">
     <link rel="stylesheet" href="css/home.css">
 
@@ -51,7 +55,7 @@
                     <a class="nav-link" href="#projects">Projects</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
+                    <a class="nav-link" href="mailto:mhthompson86@gmail.com">Contact</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="https://www.linkedin.com/in/mhthompson86/">
@@ -70,7 +74,7 @@
 
 
 <section id="intro">
-    <div class="small-container">
+    <div class="container small-container">
         <img src="img/bg/small/jax-intro-min.jpeg" class="img-thumbnail rounded into-img">
         <h1 class="display-4 primary">Front End Developer</h1>
         <p class="lead text-light">
@@ -79,11 +83,12 @@
                 <strong>Microsoft Certified Professional</strong>
                 <!--<i class="fal fa-external-link"></i>-->
             </a>
-            in front end development who likes to write code (and play golf). I embrace challenging projects
-            and enjoy learning and staying on top of ever-changing technologies.
+            in front end development who loves writing code (and playing golf).
+            I embrace challenging projects and enjoy learning and staying on top of ever-changing technologies.
         </p>
-        <a href="#contact" class="btn btn-lg btn-outline-light top-space-30">
+        <a href="mailto:mhthompson86@gmail.com" class="btn btn-lg btn-outline-light top-space-30">
             <i class="fal fa-paper-plane"></i>
+            <!--<i class="fal fa-envelope"></i>-->
             Contact
         </a>
     </div>
@@ -91,10 +96,10 @@
 
 <!--<div id="bg-1"></div>-->
 
-<section id="skills">
+<section id="skills" class="alt-bg">
     <div class="container text-center">
-        <h1 class="display-5 text-center section-header">Main Technical Skills</h1>
-        <div class="row top-space-30">
+        <h1 class="display-5 text-center section-header">Technical Skills</h1>
+        <div class="row">
             <div class="col-lg-2 col-sm-4 col-6">
                 <div class="card skill-card">
                     <div class="card-body">
@@ -147,39 +152,75 @@
         <div>
             <div class="card">
                 <div class="card-body">
-                    And quite familiar with many other languages and frameworks such as AngularJS, NodeJS, and Microsoft
-                    Azure<sup>&reg;</sup>
+                    I'm also quite familiar with many other languages and frameworks such as AngularJS, NodeJS, Gulp,
+                    and Microsoft Azure<sup>&reg;</sup>
                 </div>
             </div>
         </div>
-        <!-- <div>
-             <table class="table">
-                 <tr>
-                     <td>AngularJS</td>
-                     <td>TypeScript</td>
-                     <td>Gulp</td>
-                     <td>NodeJS</td>
-                 </tr>
-             </table>
-         </div>-->
-
     </div>
 </section>
 
 <div id="bg-1"></div>
 
-<section id="experience" style="height:500px;">
+<section id="experience">
     <div class="container">
         <h1 class="display-5 text-center section-header">Experience</h1>
+        <div class="row">
+            <div class="col-md-3 text-center">
+                <div class="visible-md-plus hidden-md-down">
+                    <img src="img/instant-large.png" class="img-fluid bottom-space-10">
+                    <h4>Instant Technologies</h4>
+                    <h4><span class="badge badge-danger timeline-badge">Oct 2014 - Present</span></h4>
+                </div>
+                <div class="visible-sm visible-xs hidden-md-plus">
+                    <img src="img/instant-logo-blue.png" class="img-fluid bottom-space-10">
+                    <h5>Instant Technologies</h5>
+                    <p>(Oct 2014 - Present)</p>
+                    <h4 class="text-danger top-space-30">Front End Developer</h4>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <h4 class="text-center hidden-md-down">
+                    <i class="fab fa-js-square"></i>
+                    <i class="fab fa-angular"></i>
+                    Front End Developer
+                    <i class="fab fa-html5"></i>
+                    <i class="fab fa-css3-alt"></i>
+                </h4>
+                <hr>
+                <ul>
+                    <li class="bottom-space-10">
+                        Helped design, build, and maintain the front end of multiple enterprise service desk
+                        applications using AngularJS and jQuery
+                    </li>
+                    <li class="bottom-space-10">
+                        Built and maintained the company’s many product websites (including implementing
+                        Google campaigns and SEO for each)
+                    </li>
+                   <!-- <li class="bottom-space-10">
+                        Handled DNS
+                    </li>-->
+                    <li class="bottom-space-10">
+                        Collaborated with clients from concept through final delivery of product or service
+                    </li>
+                    <li class="bottom-space-10">
+                        Kept abreast of emerging technologies, software and trends, and applied them to projects
+                    </li>
+                    <li class="bottom-space-10">
+                        Converted mockups into HTML, JavaScript, AJAX and JSON
+                    </li>
+                </ul>
+            </div>
+        </div>
     </div>
 </section>
 
 <div id="bg-3"></div>
 
-<section id="certifications">
+<section id="certifications" class="alt-bg">
     <div class="container medium-container">
         <h1 class="display-5 text-center section-header">Certifications</h1>
-        <div class="row top-space-30">
+        <div class="row">
             <div class="col">
                 <div class="card cert-card">
                     <a href="http://www.mycertprofile.com/Profile/3841135407/12/1519/share" class="cert-link">
@@ -203,39 +244,113 @@
 
 <div id="bg-4"></div>
 
-<section id="projects" style="height:500px;">
+<section id="projects">
     <div class="container">
         <h1 class="display-5 text-center section-header">Projects</h1>
+
+        <div class="table-responsive">
+            <table class="table table-hover">
+                <tbody>
+                <tr>
+                    <th scope="row">
+                        <a class="project-link" href="https://github.com/mhthompson86/ng-drag-to-reorder">
+                            <!-- using a span to keep the space between the link and icon from having an underline -->
+                            ng-drag-to-reorder<!--<span class="link-icon">&nbsp;&nbsp;<i
+                                class="fal fa-link"></i></span>-->
+                        </a>
+                    </th>
+                    <td>
+                        Lightweight AngularJS drag and drop plugin to reorder lists without any
+                        dependencies other than AngularJS.
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">
+                        <a class="project-link" href="https://github.com/mhthompson86/summer-golf-league">
+                            summer-golf-league
+                        </a>
+                    </th>
+                    <td>
+                        Angular & Firebase app for my summer golf league with my friends.
+                        Can be seen at <a href="//www.summergolfleague.com">summergolfleague.com</a>.
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">
+                        <a class="project-link" href="https://github.com/mhthompson86/wedding-website">
+                            wedding-website
+                        </a>
+                    </th>
+                    <td>
+                        Website I built for my wedding. Can be seen at
+                        <a href="//www.kristinandmacgregor.com">kristinandmacgregor.com</a>.
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">
+                        <a class="project-link" href="https://github.com/mhthompson86/angular-directline-webchat">
+                            angular-directline-webchat
+                        </a>
+                    </th>
+                    <td>
+                        Prototype Angular chat app for communicating with the Microsoft Bot Framework via the DirectLine API.
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
+       <div class="text-center">
+           <a class="btn btn-lg btn-outline-primary" href="https://github.com/mhthompson86">
+               Visit my <i class="fab fa-github"></i> GitHub
+           </a>
+       </div>
     </div>
 </section>
 
-<div id="bg-5"></div>
+<!--<div id="bg-5"></div>
 
 <section id="contact">
     <div class="container text-center">
         <h1 class="display-5 section-header primary">Contact</h1>
     </div>
-</section>
+</section>-->
 
-<nav class="navbar navbar-dark" style="margin-top: -10px">
-    <div class="container justify-content-center top-space-15">
-        <p class="navbar-text" style="padding-right: 50px;">Made by MacGregor Thompson</p>
-        <ul class="list-inline">
-            <li class="list-inline-item">
-                <a class="navbar-brand" href="#">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-            </li>
-            <li class="list-inline-item">
-                <a class="navbar-brand" href="#">
-                    <i class="fab fa-github"></i>
-                </a>
-            </li>
 
-        </ul>
+<nav class="navbar navbar-expand-md navbar-dark">
+    <div class="container">
+        <span class="navbar-text">
+            <small>Made by</small>
+            MacGregor Thompson
+        </span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#footerText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="footerText">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="mailto:mhthompson86@gmail.com">
+                        <i class="fal fa-envelope"></i>
+                        mhthompson86@gmail.com
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.linkedin.com/in/mhthompson86/">
+                        <i class="fab fa-linkedin"></i>
+                        LinkedIn
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/mhthompson86">
+                        <i class="fab fa-github"></i>
+                        GitHub
+                    </a>
+                </li>
+            </ul>
+        </div>
     </div>
 </nav>
-
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->

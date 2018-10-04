@@ -9,6 +9,21 @@
   iphone X: 375 x 724
  */
 
+.alt-bg {
+    background: -webkit-gradient(linear,left bottom,right top,from(#f6f6f7),to(#fefefe));
+    background: linear-gradient(to top right,#f6f6f7,#fefefe);
+}
+
+/* ---------    xs and sm     --------- */
+@media screen and (max-width: 767px) {
+    .section-divider {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        border: 0;
+        border-top: 3px solid rgba(0,0,0,.1);
+    }
+}
+
 /* ---------    md+     --------- */
 @media screen and (min-width: 768px) {
     #bg-1 {

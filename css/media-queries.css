@@ -1,0 +1,119 @@
+/* Break Points
+  xs: 0 - 575px
+  sm: 576px - 767px
+  md: 768px - 991px
+  lg: 992px - 1199px
+  xl: 1200px+
+
+  ipad air: 768 x 1024
+  iphone X: 375 x 724
+ */
+
+/* ---------    xs    --------- */
+@media screen and (max-width: 575px) {
+    .visible-xl, .visible-lg, .visible-md, .visible-sm {
+        display: none;
+    }
+
+    .visible-xs {
+        display: block;
+    }
+
+    .hidden-xs {
+        display: none;
+    }
+}
+
+/* ---------    sm    --------- */
+@media screen and (max-width: 767px) and (min-width: 576px) {
+    .visible-xl, .visible-lg, .visible-md, .visible-xs {
+        display: none;
+    }
+
+    .visible-sm {
+        display: block;
+    }
+
+    .hidden-sm {
+        display: none;
+    }
+}
+
+/* ---------    md     --------- */
+@media screen and (max-width: 991px) and (min-width: 768px) {
+    .visible-xl, .visible-lg, .visible-sm, .visible-xs {
+        display: none;
+    }
+
+    .visible-md {
+        display: block;
+    }
+
+    .hidden-md {
+        display: none;
+    }
+}
+
+/* ---------    lg    --------- */
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+    .visible-xl, .visible-md, .visible-sm, .visible-xs {
+        display: none;
+    }
+
+    .visible-lg {
+        display: block;
+    }
+
+    .hidden-lg {
+        display: none;
+    }
+}
+
+/* ---------    xl     --------- */
+@media screen and (min-width: 1200px) {
+    .visible-lg, .visible-md, .visible-sm, .visible-xs {
+        display: none;
+    }
+
+    .visible-xl {
+        display: block;
+    }
+
+    .hidden-xl {
+        display: none;
+    }
+}
+
+/* ---------    sm+     --------- */
+@media screen and (min-width: 576px) {
+    .visible-sm-plus {
+        display: block;
+    }
+
+    .section-header {
+
+    }
+}
+
+/* ---------    md+     --------- */
+@media screen and (min-width: 768px) {
+    .visible-md-plus {
+        display: block;
+    }
+    .hidden-md-plus {
+        display: none;
+    }
+
+    .job-title {
+        margin-left: 1.5rem!important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .hidden-md-down {
+        display: none;
+    }
+    .job-title {
+        text-align: center;
+    }
+}
