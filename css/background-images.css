@@ -14,18 +14,8 @@
     background: linear-gradient(to top right,#f6f6f7,#fefefe);
 }
 
-/* ---------    xs and sm     --------- */
-@media screen and (max-width: 767px) {
-    .section-divider {
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-        border: 0;
-        border-top: 3px solid rgba(0,0,0,.1);
-    }
-}
-
 /* ---------    md+     --------- */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
     #bg-1 {
         background: url('../img/bg/small/jax-boat-min.jpeg') no-repeat fixed center;
         background-size: cover;

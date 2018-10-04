@@ -52,6 +52,10 @@
     .hidden-md {
         display: none;
     }
+
+    .navbar.fixed-top .container {
+        max-width: 775px;
+    }
 }
 
 /* ---------    lg    --------- */
@@ -66,6 +70,10 @@
 
     .hidden-lg {
         display: none;
+    }
+
+    .skill-card h5 {
+        font-size: 1.15rem;
     }
 }
 
