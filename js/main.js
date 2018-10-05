@@ -1,4 +1,4 @@
-(function () {
+(function (keyframes, options) {
   'use strict';
 
   scrollToRelativeLinks();
@@ -10,7 +10,7 @@
     $('a').on('click', function (e) {
       console.log('link clicked:', e);
       if (e.target.hash.indexOf('#') === 0) {
-        let pos = $(e.target.hash).offset().top;
+        var pos = $(e.target.hash).offset().top;
         console.log('relative link, pos:', pos);
         $('html, body').animate({
             scrollTop: pos - 50
@@ -41,8 +41,8 @@
         event.preventDefault();
 
         //scroll without smoothing
-        let wheelDelta = event.wheelDelta;
-        let currentScrollPosition = window.pageYOffset;
+        var wheelDelta = event.wheelDelta;
+        var currentScrollPosition = window.pageYOffset;
         window.scrollTo(0, currentScrollPosition - wheelDelta);
       });
     }
