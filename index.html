@@ -20,6 +20,8 @@
     <link rel="stylesheet" href="css/background-images.css">
     <link rel="stylesheet" href="css/media-queries.css">
     <link rel="stylesheet" href="css/icons.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/spinner.css">
     <link rel="stylesheet" href="css/home.css">
 
 
@@ -57,7 +59,7 @@
                     <a class="nav-link" href="#projects">Projects</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="mailto:mhthompson86@gmail.com">Contact</a>
+                    <a class="nav-link" href="#" data-toggle="modal" data-target="#contact-modal">Contact</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="https://www.linkedin.com/in/mhthompson86/">
@@ -88,7 +90,7 @@
             in front end development who loves writing code (and playing golf).
             I embrace challenging projects and enjoy learning and staying on top of ever-changing technologies.
         </p>
-        <a href="mailto:mhthompson86@gmail.com" class="btn btn-lg btn-outline-light top-space-30">
+        <a href="#" class="btn btn-lg btn-outline-light top-space-30" data-toggle="modal" data-target="#contact-modal">
             <i class="fal fa-paper-plane"></i>
             <!--<i class="fal fa-envelope"></i>-->
             Contact
@@ -199,9 +201,9 @@
                         Built and maintained the company’s many product websites (including implementing
                         Google campaigns and SEO for each)
                     </li>
-                   <!-- <li class="bottom-space-10">
-                        Handled DNS
-                    </li>-->
+                    <!-- <li class="bottom-space-10">
+                         Handled DNS
+                     </li>-->
                     <li class="bottom-space-10">
                         Collaborated with clients from concept through final delivery of product or service
                     </li>
@@ -295,18 +297,19 @@
                         </a>
                     </th>
                     <td>
-                        Prototype Angular chat app for communicating with the Microsoft Bot Framework via the DirectLine API.
+                        Prototype Angular chat app for communicating with the Microsoft Bot Framework via the DirectLine
+                        API.
                     </td>
                 </tr>
                 </tbody>
             </table>
         </div>
 
-       <div class="text-center">
-           <a class="btn btn-lg btn-outline-primary" href="https://github.com/mhthompson86">
-               Visit my <i class="fab fa-github"></i> GitHub
-           </a>
-       </div>
+        <div class="text-center">
+            <a class="btn btn-lg btn-outline-primary" href="https://github.com/mhthompson86">
+                Visit my <i class="fab fa-github"></i> GitHub
+            </a>
+        </div>
     </div>
 </section>
 
@@ -317,6 +320,73 @@
         <h1 class="display-5 section-header primary">Contact</h1>
     </div>
 </section>-->
+
+
+<div class="modal fade" id="contact-modal" tabindex="-1" role="dialog" aria-labelledby="contact-modal-label"
+     aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="contact-modal-label">Contact Me!</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="text-center">
+                    <!--<div>
+                        <div class="lds-spinner"><div></div><div></div><div></div><div></div><div></div>
+                            <div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+                    </div>-->
+                </div>
+                <form role="form" method="post" id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name: <span class="text-danger">*</span></label>
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Name" maxlength="50"
+                               required="required">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email: <span class="text-danger">*</span></label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Email"
+                               maxlength="50" required="required">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message: <span class="text-danger">*</span></label>
+                        <textarea class="form-control" id="message" rows="4" maxlength="1000"
+                                  required="required"></textarea>
+                    </div>
+                </form>
+                <div class="alert alert-warning" role="alert" id="message-error">
+                    <strong>Oops...</strong> There was a problem sending your message. Please try again later.
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" id="send-message">
+                    <i class="fas fa-paper-plane"></i>
+                    Send
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="thank-you-modal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="alert alert-success" role="alert">
+                    <strong>Thank you!</strong> You should hear from me as soon I have a chance to reach out.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
 
 
 <nav class="navbar navbar-expand-md navbar-dark footer">
@@ -333,7 +403,7 @@
         <div class="collapse navbar-collapse justify-content-end" id="footerText">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="mailto:mhthompson86@gmail.com">
+                    <a class="nav-link" href="#" data-toggle="modal" data-target="#contact-modal">
                         <i class="fal fa-envelope nav-link-text"></i>
                         Contact Me
                     </a>
@@ -355,6 +425,7 @@
     </div>
 </nav>
 
+
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"
@@ -364,6 +435,7 @@
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
         crossorigin="anonymous"></script>
 <script src="js/vendor/bootstrap/bootstrap.bundle.min.js"></script>
+<script src="js/vendor/parsley/parsley.min.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>
