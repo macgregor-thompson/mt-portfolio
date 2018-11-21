@@ -47,3 +47,8 @@ a.secondary:hover, a.secondary:active {
     background-color: #45bafc;
     font-weight: 400;
 }
+
+.link-unstyled {
+    color: inherit;
+    text-decoration: inherit;
+}
