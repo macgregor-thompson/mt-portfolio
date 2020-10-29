@@ -89,6 +89,7 @@
 
 .project-link {
     color: #212529;
+    white-space: nowrap;
 }
 
 .project-link:hover, .project-link:active {
